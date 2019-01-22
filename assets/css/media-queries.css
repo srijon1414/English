@@ -1,0 +1,228 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    /*.navbar {*/
+        /*flex-direction: column;*/
+    /*}*/
+
+    /*#navbarCollapse {*/
+        /*flex-direction: column;*/
+    /*}*/
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+    .header-search {
+         width: 30px !important;
+         padding-left: 0 !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    .cities-search {
+        margin-top: 1rem;
+        border: solid 1px #4ca20b;
+        border-radius: 6px;
+    }
+
+    .right-nav-menu {
+        flex-direction: column;
+    }
+
+    .header__top--menu {
+        border-right: none;
+    }
+
+    .header-search {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width: 275px;
+        padding-left: 3.1rem
+    }
+
+    .header-search input {
+        border: solid 1px #47A40E;
+    }
+
+    .social-login-wrapper {
+        margin-top: 1rem;
+    }
+
+    .loggined-user-nav {
+        margin-top: 1rem;
+    }
+
+    .location-search-result {
+        width: 100%;
+        margin: 0;
+    }
+
+    .dropdown-content {
+        right: -45px;
+        top: 74px;
+    }
+
+    .listing-title {
+        text-align: center;
+    }
+
+    .listing-nav .nav-item:not(:last-child) {
+        margin-right: .2rem;
+    }
+
+    .listing-nav .nav-item {
+        font-weight: 500;
+    }
+
+    .nav-link {
+        padding: 0.5rem .5rem;
+    }
+
+    .budget-title {
+        margin: .9rem 0 0 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .main-budget {
+        margin: 0;
+        padding: 0;
+    }
+
+    .btn-social-active {
+        margin-right: 7px;
+    }
+
+    .create-an-account {
+        margin-bottom: 1rem;
+    }
+
+    .create-an-account-btn {
+        padding: .5rem 3rem;
+    }
+
+    .view-buttons {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-left: 8rem !important;
+    }
+
+    .view-buttons a {
+        padding: .4rem .9rem;
+        font-size: 1.8rem;
+    }
+
+    .room-card-wrapper.list_view {
+        width: 100%;
+        margin: 0;
+    }
+
+    .offers__room-cards {
+        display: none;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .widget-title-top-cities {
+        font-size: 1rem;
+        margin-bottom: .9rem;
+    }
+
+    .footer-widget-top-cities {
+        padding-left: 0;
+    }
+
+    .mob-space {
+        padding: .4rem 0;
+    }
+
+    .logged-in-footer .quick-links ul {
+        flex-wrap: wrap;
+    }
+
+    .roomzn-modal-window > div {
+        top: 54%;
+        left: 48%;
+    }
+
+    .roomzn-auth-btn {
+        padding: .6rem 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .modal-window > div {
+        top: 64%;
+        left: 48%;
+    }
+
+    .details-nav-area {
+        top: 60px;
+    }
+
+    .nav-area-wrapper {
+        flex-direction: column;
+    }
+
+    .nav-area-wrapper .nav-price {
+        margin-left: -53px;
+        margin-top: 1rem;
+    }
+
+    .nav-area-wrapper .nav-img {
+        margin-bottom: 1rem;
+    }
+
+    .add-on-area {
+        display: flex;
+        margin-top: 1rem;
+        justify-content: space-around;
+    }
+
+
+    .button-area {
+        margin-left: 1rem;
+    }
+
+    .button-area button {
+        margin-bottom: 1rem;
+    }
+
+    .button-area a {
+        margin-left: 0 !important;
+        padding: .5rem 8.9rem;
+    }
+
+    button.create-view-button {
+        margin-bottom: 1rem;
+    }
+
+    .create-view-button {
+        width: 100%;
+    }
+
+    .create-user-profile {
+        margin-top: 1.8rem;
+    }
+
+    .sticky-nav-item li:not(:last-child) {
+        margin-right: 1rem;
+    }
+
+    #multiple-file-upload input[type=file], #multiple-file-upload-edit input[type=file] {
+        font-size: 1rem;
+    }
+
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {}
